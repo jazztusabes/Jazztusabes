@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carlos Rivera | Trumpet & Composer</title>
+  <style>
+    :root {
+      --bg: #0e0e0e;
+      --fg: #f4f4f4;
+      --accent: #c29d58;
+      --card-bg: #1a1a1a;
+      --radius: 16px;
+      --shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Helvetica Neue', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 2rem;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #aaa;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background: var(--accent);
+      color: #000;
+      border-radius: var(--radius);
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .links a:hover {
+      background: #e0b76d;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Carlos Rivera</h1>
+    <h2>Trumpet · Composer · Artisan</h2>
+
+    <p>
+      Caribbean-born and jazz-bred.  
+      Modal colors, deep grooves, and a tone forged from concrete and smoke.
+    </p>
+
+    <div class="links">
+      <a href="https://instagram.com/" target="_blank">Instagram</a>
+      <a href="https://youtube.com/" target="_blank">YouTube</a>
+      <a href="mailto:your@email.com">Email Me</a>
+    </div>
+
+    <footer>
+      © 2025 Carlos Rivera. All rights reserved.
+    </footer>
+  </div>
+
+</body>
+</html>
